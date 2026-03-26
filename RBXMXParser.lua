@@ -692,50 +692,97 @@ local function buildInstance(
 end
 
 local function postProcess(instances: { Instance })
+	local all = {}
 	for _, root in instances do
-		local allDescs = root:GetDescendants()
-		table.insert(allDescs, root)
+		table.insert(all, root)
+		for _, desc in root:GetDescendants() do
+			table.insert(all, desc)
+		end
+	end
 
-		for _, desc in allDescs do
-			if not desc:IsA("ViewportFrame") then
-				continue
-			end
+	for _, inst in all do
+		if not inst:IsA("ViewportFrame") then
+			continue
+		end
+		local vf = inst :: ViewportFrame
 
-			local hasWorldModel = false
-			for _, child in desc:GetChildren() do
-				if child:IsA("WorldModel") then
-					hasWorldModel = true
+		if not vf.CurrentCamera then
+			for _, child in vf:GetChildren() do
+				if child:IsA("Camera") then
+					vf.CurrentCamera = child :: Camera
 					break
 				end
 			end
+		end
 
-			if hasWorldModel then
-				continue
+		local hasWorldModel = false
+		for _, child in vf:GetChildren() do
+			if child:IsA("WorldModel") then
+				hasWorldModel = true
+				break
 			end
+		end
 
-			local needsWorldModel = false
-			for _, child in desc:GetDescendants() do
-				if child:IsA("JointInstance") or child:IsA("WeldConstraint") then
-					needsWorldModel = true
-					break
+		if hasWorldModel then
+			continue
+		end
+
+		local hasJoints = false
+		for _, desc in vf:GetDescendants() do
+			if desc:IsA("JointInstance") or desc:IsA("WeldConstraint") then
+				hasJoints = true
+				break
+			end
+		end
+
+		if not hasJoints then
+			for _, desc in vf:GetDescendants() do
+				if desc:IsA("BasePart") then
+					desc.Anchored = true
 				end
 			end
+			continue
+		end
 
-			if not needsWorldModel then
-				continue
+		local wm = Instance.new("WorldModel")
+		local toMove = {}
+		for _, child in vf:GetChildren() do
+			if child:IsA("BasePart") or child:IsA("Model") or child:IsA("Accessory") or child:IsA("Folder") then
+				table.insert(toMove, child)
 			end
+		end
+		for _, child in toMove do
+			child.Parent = wm
+		end
+		wm.Parent = vf
 
-			local wm = Instance.new("WorldModel")
-			local toMove = {}
-			for _, child in desc:GetChildren() do
-				if child:IsA("BasePart") or child:IsA("Model") or child:IsA("Accessory") or child:IsA("Folder") then
-					table.insert(toMove, child)
+		for _, desc in wm:GetDescendants() do
+			if desc:IsA("BasePart") then
+				local isJointed = false
+				for _, other in desc:GetDescendants() do
+					if other:IsA("JointInstance") then
+						isJointed = true
+						break
+					end
+				end
+				if not isJointed then
+					for _, sibling in (desc.Parent and desc.Parent:GetChildren() or {}) do
+						if sibling:IsA("JointInstance") then
+							isJointed = true
+							break
+						end
+					end
+				end
+				if not isJointed and desc.Name == "HumanoidRootPart" then
+					desc.Anchored = true
 				end
 			end
-			for _, child in toMove do
-				child.Parent = wm
+		end
+
+		for _, desc in wm:GetDescendants() do
+			if desc:IsA("Model") and desc.PrimaryPart then
+				desc.PrimaryPart.Anchored = true
 			end
-			wm.Parent = desc
 		end
 	end
 end
