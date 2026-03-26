@@ -44,6 +44,14 @@ local PRIORITY_LATE = {
 	Focus = true,
 }
 
+local PROP_NAME_MAP = {
+	Color3uint8 = "Color",
+	size = "Size",
+	shape = "Shape",
+	formFactorRaw = "FormFactor",
+	Health_XML = "Health",
+}
+
 local FONT_WEIGHTS = {
 	[100] = Enum.FontWeight.Thin,
 	[200] = Enum.FontWeight.ExtraLight,
@@ -604,7 +612,8 @@ end
 
 local function applyBatch(batch, inst: Instance, sharedStrings: { [string]: string })
 	for _, propNode in batch do
-		local propName = getAttr(propNode, "name")
+		local rawName = getAttr(propNode, "name")
+		local propName = PROP_NAME_MAP[rawName] or rawName
 		local readOk, value = pcall(readProperty, propNode, sharedStrings)
 		if readOk and value ~= nil then
 			setProp(inst, propName, value)
@@ -616,7 +625,8 @@ local function buildInstance(
 	itemNode,
 	sharedStrings: { [string]: string },
 	referentMap: { [string]: Instance },
-	deferredRefs: { { Instance | string } }
+	deferredRefs: { { Instance | string } },
+	deferredJointCFrames: { { Instance | string | CFrame } }
 )
 	local className = getAttr(itemNode, "class")
 	if not className then return nil end
@@ -636,6 +646,8 @@ local function buildInstance(
 		referentMap[referent] = inst
 	end
 
+	local isJoint = inst:IsA("JointInstance")
+
 	local propsNode = getChild(itemNode, "Properties")
 	if propsNode then
 		local earlyProps = {}
@@ -643,27 +655,34 @@ local function buildInstance(
 		local lateProps = {}
 
 		for _, propNode in propsNode.children do
-			local propName = getAttr(propNode, "name")
-			if not propName or SKIP_PROPS[propName] then
+			local rawName = getAttr(propNode, "name")
+			if not rawName or SKIP_PROPS[rawName] then
 				continue
 			end
 
-			if propName == "Name" then
+			local propName = PROP_NAME_MAP[rawName] or rawName
+
+			if propName == "Name" or rawName == "Name" then
 				pcall(function() inst.Name = getText(propNode) end)
 			elseif propNode.tag == "Ref" then
 				local refId = string.gsub(getText(propNode), "%s+", "")
 				if refId ~= "" and refId ~= "null" and refId ~= "nil" then
 					table.insert(deferredRefs, { inst, propName, refId })
 				end
-			elseif propName == "Tags" and propNode.tag == "BinaryString" then
+			elseif rawName == "Tags" and propNode.tag == "BinaryString" then
 				local decoded = b64decode(string.gsub(getText(propNode), "%s+", ""))
 				for _, tag in decodeTags(decoded) do
 					pcall(CollectionService.AddTag, CollectionService, inst, tag)
 				end
-			elseif propName == "AttributesSerialize" and propNode.tag == "BinaryString" then
+			elseif rawName == "AttributesSerialize" and propNode.tag == "BinaryString" then
 				local decoded = b64decode(string.gsub(getText(propNode), "%s+", ""))
 				for attrName, attrValue in decodeAttributes(decoded) do
 					pcall(inst.SetAttribute, inst, attrName, attrValue)
+				end
+			elseif isJoint and (propName == "C0" or propName == "C1") then
+				local readOk, value = pcall(readProperty, propNode, sharedStrings)
+				if readOk and value ~= nil then
+					table.insert(deferredJointCFrames, { inst, propName, value })
 				end
 			elseif PRIORITY_EARLY[propName] then
 				table.insert(earlyProps, propNode)
@@ -681,7 +700,7 @@ local function buildInstance(
 
 	for _, childNode in itemNode.children do
 		if childNode.tag == "Item" then
-			local childInst = buildInstance(childNode, sharedStrings, referentMap, deferredRefs)
+			local childInst = buildInstance(childNode, sharedStrings, referentMap, deferredRefs, deferredJointCFrames)
 			if childInst then
 				childInst.Parent = inst
 			end
@@ -817,11 +836,12 @@ function RBXMXParser.Deserialize(rbxmxText: string, parent: Instance?): { Instan
 
 	local referentMap: { [string]: Instance } = {}
 	local deferredRefs: { { Instance | string } } = {}
+	local deferredJointCFrames: { { Instance | string | CFrame } } = {}
 	local instances: { Instance } = {}
 
 	for _, child in robloxNode.children do
 		if child.tag == "Item" then
-			local inst = buildInstance(child, sharedStrings, referentMap, deferredRefs)
+			local inst = buildInstance(child, sharedStrings, referentMap, deferredRefs, deferredJointCFrames)
 			if inst then
 				table.insert(instances, inst)
 			end
@@ -836,6 +856,13 @@ function RBXMXParser.Deserialize(rbxmxText: string, parent: Instance?): { Instan
 		if target then
 			setProp(inst, propName, target)
 		end
+	end
+
+	for _, entry in deferredJointCFrames do
+		local inst = entry[1] :: Instance
+		local propName = entry[2] :: string
+		local value = entry[3]
+		setProp(inst, propName, value)
 	end
 
 	postProcess(instances)
