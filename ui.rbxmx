@@ -2,7 +2,7 @@
 	<Meta name="ExplicitAutoJoints">true</Meta>
 	<External>null</External>
 	<External>nil</External>
-	<Item class="ScreenGui" referent="RBXCD8AE2C6EE1F44F1B469369B97C8616A">
+	<Item class="ScreenGui" referent="RBX6F4553788CDE4770A31282AB921A4B71">
 		<Properties>
 			<bool name="ClipToDeviceSafeArea">true</bool>
 			<int name="DisplayOrder">0</int>
@@ -21,11 +21,11 @@
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 			<bool name="DefinesCapabilities">false</bool>
-			<string name="Name">Frame 1</string>
+			<string name="Name">AnimLoggerUI</string>
 			<int64 name="SourceAssetId">-1</int64>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
-		<Item class="Frame" referent="RBXB96193BB3F4D44AFB5FCA284F3CF55C5">
+		<Item class="Frame" referent="RBX78D2289E77D649A9BEA90DC1E20763EC">
 			<Properties>
 				<token name="Style">0</token>
 				<bool name="Active">false</bool>
@@ -89,7 +89,7 @@
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="ImageLabel" referent="RBXAAF509EDDEF14194BA58AC9EE77328F0">
+			<Item class="ImageLabel" referent="RBX8163DE6FE13E463C92CA40FE1EB80319">
 				<Properties>
 					<Content name="Image"><url>rbxassetid://108453875048733</url></Content>
 					<Color3 name="ImageColor3">
@@ -187,7 +187,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ImageLabel" referent="RBX20B48394DDAE445D94772C6AD297F056">
+			<Item class="ImageLabel" referent="RBX9967B7CBD98F494898A0F2F64A95B261">
 				<Properties>
 					<Content name="Image"><url>rbxassetid://82686076130111</url></Content>
 					<Color3 name="ImageColor3">
@@ -284,7 +284,7 @@
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="Frame" referent="RBX8CDBAB18148D4DB99702C86B92A13695">
+				<Item class="Frame" referent="RBX752BDB1AC09648B786914DC74A823892">
 					<Properties>
 						<token name="Style">0</token>
 						<bool name="Active">false</bool>
@@ -348,7 +348,7 @@
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 					</Properties>
-					<Item class="UIListLayout" referent="RBXC25180499DFB4A6F98A20C7C1AEC8DF2">
+					<Item class="UIListLayout" referent="RBX21339FF0249942BC8A516887E4218CC3">
 						<Properties>
 							<token name="HorizontalFlex">0</token>
 							<token name="ItemLineAlignment">0</token>
@@ -370,7 +370,7 @@
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
 					</Item>
-					<Item class="ImageLabel" referent="RBXC4489A69B1394938B4C0CFEFB7C993D3">
+					<Item class="ImageLabel" referent="RBX43AAEAF0386749FF8FBD374CFA24E400">
 						<Properties>
 							<Content name="Image"><url>rbxassetid://95222964296464</url></Content>
 							<Color3 name="ImageColor3">
@@ -468,7 +468,7 @@
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
 					</Item>
-					<Item class="ImageLabel" referent="RBX7CFA336E60454AD9A5FD0852E38BE699">
+					<Item class="ImageLabel" referent="RBXC953A3EB1C5141A78623D57A8D32BCC6">
 						<Properties>
 							<Content name="Image"><url>rbxassetid://114069756293603</url></Content>
 							<Color3 name="ImageColor3">
@@ -566,7 +566,7 @@
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
 					</Item>
-					<Item class="TextLabel" referent="RBX2AEEFF4D7EAF4AD9A3C3BFE17DFF5EDE">
+					<Item class="TextLabel" referent="RBXEF795463295649FF96A9483730D4BD53">
 						<Properties>
 							<Font name="FontFace">
 								<Family><url>rbxasset://fonts/families/Roboto.json</url></Family>
@@ -661,7 +661,7 @@
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
 					</Item>
-					<Item class="TextLabel" referent="RBX762BF7400DD94E29B3E4F647B163F011">
+					<Item class="TextLabel" referent="RBX55F24C0CD7514B2E82774BFC355148B7">
 						<Properties>
 							<Font name="FontFace">
 								<Family><url>rbxasset://fonts/families/Roboto.json</url></Family>
@@ -756,7 +756,7 @@
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
 					</Item>
-					<Item class="TextLabel" referent="RBXDB46587BC00B4179BB15B5A1C0A432FF">
+					<Item class="TextLabel" referent="RBX55736B8D973D4C26BC9CF9BBCC4888DD">
 						<Properties>
 							<Font name="FontFace">
 								<Family><url>rbxasset://fonts/families/Roboto.json</url></Family>
@@ -851,7 +851,7 @@
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
 					</Item>
-					<Item class="TextLabel" referent="RBX065E06E7B9BF4BE7A5DDA82F1BB403CD">
+					<Item class="TextLabel" referent="RBX99EF8CE28F3742CABF3BEB39D1A9BC9C">
 						<Properties>
 							<Font name="FontFace">
 								<Family><url>rbxasset://fonts/families/Roboto.json</url></Family>
@@ -947,7 +947,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Frame" referent="RBXCA308E80FF854E02A0F5F21021655C0C">
+				<Item class="Frame" referent="RBX049CDD3009764006A022A4D31B518C18">
 					<Properties>
 						<token name="Style">0</token>
 						<bool name="Active">false</bool>
@@ -1011,7 +1011,7 @@
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 					</Properties>
-					<Item class="Frame" referent="RBX447230085FF049FA82562299F2F7165A">
+					<Item class="Frame" referent="RBX94B6E4E80208417CB628B520165876AD">
 						<Properties>
 							<token name="Style">0</token>
 							<bool name="Active">false</bool>
@@ -1075,7 +1075,7 @@
 							<int64 name="SourceAssetId">-1</int64>
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
-						<Item class="UICorner" referent="RBX83AF1CD11BE84F8BBBEC5FB9363170C8">
+						<Item class="UICorner" referent="RBX6C718C989301453D860E6B066734D8A2">
 							<Properties>
 								<UDim name="CornerRadius">
 									<S>0</S>
@@ -1089,7 +1089,7 @@
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
 						</Item>
-						<Item class="UIStroke" referent="RBX8E5E24B4DC1D4771A4BE448DFCFEB24F">
+						<Item class="UIStroke" referent="RBXA3E85F56F65D4FCB95E11D149EAAE16A">
 							<Properties>
 								<token name="ApplyStrokeMode">0</token>
 								<UDim name="BorderOffset">
@@ -1116,7 +1116,7 @@
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
 						</Item>
-						<Item class="Frame" referent="RBX50EB33C01A26441683C1CEC11EE0846B">
+						<Item class="Frame" referent="RBX6186F6DB3A014FCCB35B5201FCEA1BD6">
 							<Properties>
 								<token name="Style">0</token>
 								<bool name="Active">false</bool>
@@ -1180,7 +1180,7 @@
 								<int64 name="SourceAssetId">-1</int64>
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
-							<Item class="Frame" referent="RBXDF00963420B7435C973971BFB9D3BFE0">
+							<Item class="Frame" referent="RBX62FD5878C9984B7E886442CE054301ED">
 								<Properties>
 									<token name="Style">0</token>
 									<bool name="Active">false</bool>
@@ -1244,7 +1244,7 @@
 									<int64 name="SourceAssetId">-1</int64>
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
-								<Item class="UICorner" referent="RBXA11AE10AF0E240F384E76A8DF14C2C6B">
+								<Item class="UICorner" referent="RBXC2A438AF0C1E4602993B84F4FB980DF2">
 									<Properties>
 										<UDim name="CornerRadius">
 											<S>1</S>
@@ -1259,7 +1259,7 @@
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="UIListLayout" referent="RBX58A770956BEF459A90D6AF4149C050E7">
+							<Item class="UIListLayout" referent="RBXE32010354C0844A69F702F799DE18F0B">
 								<Properties>
 									<token name="HorizontalFlex">0</token>
 									<token name="ItemLineAlignment">0</token>
@@ -1281,7 +1281,7 @@
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
 							</Item>
-							<Item class="TextLabel" referent="RBXAA1C36AD990C47AEA393C3C7DBBD874A">
+							<Item class="TextLabel" referent="RBX36F868B2386E4E289D1BE2F6570CDC69">
 								<Properties>
 									<Font name="FontFace">
 										<Family><url>rbxasset://fonts/families/Roboto.json</url></Family>
@@ -1377,7 +1377,7 @@
 								</Properties>
 							</Item>
 						</Item>
-						<Item class="TextButton" referent="RBX42CE1F05AB594D9E871342BFF8C934C4">
+						<Item class="TextButton" referent="RBXB2774CC7AC1C4A0ABC6C6D38E9D05E94">
 							<Properties>
 								<Font name="FontFace">
 									<Family><url>rbxasset://fonts/families/SourceSansPro.json</url></Family>
@@ -1479,7 +1479,7 @@
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
 						</Item>
-						<Item class="Frame" referent="RBX8DAB69B399B14201A86A58271FA438BB">
+						<Item class="Frame" referent="RBXD670FEE312934640BC051FC36D0027E1">
 							<Properties>
 								<token name="Style">0</token>
 								<bool name="Active">false</bool>
@@ -1543,7 +1543,7 @@
 								<int64 name="SourceAssetId">-1</int64>
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
-							<Item class="UICorner" referent="RBXB02D05C3FFB04867875C068184FF34C1">
+							<Item class="UICorner" referent="RBXCA0F80DD0D8747B6B1D5E05F0002DC13">
 								<Properties>
 									<UDim name="CornerRadius">
 										<S>0</S>
@@ -1559,7 +1559,7 @@
 							</Item>
 						</Item>
 					</Item>
-					<Item class="UIListLayout" referent="RBXCD4FA8D643694834A08D2D582A8DB9CE">
+					<Item class="UIListLayout" referent="RBX94437BB5476044D19459514B35D7DDDF">
 						<Properties>
 							<token name="HorizontalFlex">0</token>
 							<token name="ItemLineAlignment">0</token>
@@ -1581,7 +1581,7 @@
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
 					</Item>
-					<Item class="Frame" referent="RBX3D452F94979547CA8C1DFCB1141D57C7">
+					<Item class="Frame" referent="RBX9FFD4A2464634B678C0ABDC411CEC744">
 						<Properties>
 							<token name="Style">0</token>
 							<bool name="Active">false</bool>
@@ -1645,7 +1645,7 @@
 							<int64 name="SourceAssetId">-1</int64>
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
-						<Item class="UICorner" referent="RBX4E9A6B3086E3486F8FFB60D8E5A4595C">
+						<Item class="UICorner" referent="RBX011EA23DFACD4A3F8BAD4F2D8F709518">
 							<Properties>
 								<UDim name="CornerRadius">
 									<S>0</S>
@@ -1659,7 +1659,7 @@
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
 						</Item>
-						<Item class="UIStroke" referent="RBX53A0BF7945DC48969C04B0C979C7DE79">
+						<Item class="UIStroke" referent="RBX6B62E12CAAC74CC48DD738FFEEA4BD38">
 							<Properties>
 								<token name="ApplyStrokeMode">0</token>
 								<UDim name="BorderOffset">
@@ -1686,7 +1686,7 @@
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
 						</Item>
-						<Item class="Frame" referent="RBX1052957558DA4B4F90A612A085FBBF8B">
+						<Item class="Frame" referent="RBXDD284EBE3D5F4F87A063B3107A962F8D">
 							<Properties>
 								<token name="Style">0</token>
 								<bool name="Active">false</bool>
@@ -1750,7 +1750,7 @@
 								<int64 name="SourceAssetId">-1</int64>
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
-							<Item class="Frame" referent="RBX60624AA0BBA44109A58EB8BC692B64E4">
+							<Item class="Frame" referent="RBXBA37A0E248254185B8ED9E4029B1F427">
 								<Properties>
 									<token name="Style">0</token>
 									<bool name="Active">false</bool>
@@ -1814,7 +1814,7 @@
 									<int64 name="SourceAssetId">-1</int64>
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
-								<Item class="UICorner" referent="RBXBD2CB037BE1940C7A12C853261BA8A06">
+								<Item class="UICorner" referent="RBX171EFB3088C646CFBEC7D7A87E348A89">
 									<Properties>
 										<UDim name="CornerRadius">
 											<S>1</S>
@@ -1829,7 +1829,7 @@
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="UIListLayout" referent="RBX461AC477E0D04D88B39689579EB1DED2">
+							<Item class="UIListLayout" referent="RBXD753FBC8C993496AAAFE84D1A0AFC64C">
 								<Properties>
 									<token name="HorizontalFlex">0</token>
 									<token name="ItemLineAlignment">0</token>
@@ -1851,7 +1851,7 @@
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
 							</Item>
-							<Item class="TextLabel" referent="RBXAD146FE29FE34C8DB8BAF6F4F2441097">
+							<Item class="TextLabel" referent="RBXECB46FE87851467D9F4BDC1F496FF0FE">
 								<Properties>
 									<Font name="FontFace">
 										<Family><url>rbxasset://fonts/families/Roboto.json</url></Family>
@@ -1947,7 +1947,7 @@
 								</Properties>
 							</Item>
 						</Item>
-						<Item class="TextButton" referent="RBX7A90E6F8B6254EBC8B20BE095E9B81A6">
+						<Item class="TextButton" referent="RBXC1259CD821664784A2098322468FEFAF">
 							<Properties>
 								<Font name="FontFace">
 									<Family><url>rbxasset://fonts/families/SourceSansPro.json</url></Family>
@@ -2049,7 +2049,7 @@
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
 						</Item>
-						<Item class="Frame" referent="RBX40492C1EDDC24514B148B7E5F61299AF">
+						<Item class="Frame" referent="RBXA96B2E7B227943C8AB1320D57C28A87B">
 							<Properties>
 								<token name="Style">0</token>
 								<bool name="Active">false</bool>
@@ -2113,7 +2113,7 @@
 								<int64 name="SourceAssetId">-1</int64>
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
-							<Item class="UICorner" referent="RBXA615EB0732F0415991F12910FBD85A34">
+							<Item class="UICorner" referent="RBX5F97FE28698F4D39A5885C26DA8D516E">
 								<Properties>
 									<UDim name="CornerRadius">
 										<S>0</S>
@@ -2131,7 +2131,7 @@
 					</Item>
 				</Item>
 			</Item>
-			<Item class="Frame" referent="RBX419241DAA13D46A4A558A3262BD8564B">
+			<Item class="Frame" referent="RBX1FAAB6B152E2468F847AC4624D999EB7">
 				<Properties>
 					<token name="Style">0</token>
 					<bool name="Active">false</bool>
@@ -2195,7 +2195,7 @@
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="Frame" referent="RBXCB18730A80DB416BB124CFB59B95202C">
+				<Item class="Frame" referent="RBX57597056FD87487EB8248250AE87C184">
 					<Properties>
 						<token name="Style">0</token>
 						<bool name="Active">false</bool>
@@ -2259,7 +2259,7 @@
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 					</Properties>
-					<Item class="Frame" referent="RBX8358CB4B282948F0996CA5416FD89CF9">
+					<Item class="Frame" referent="RBXA81C95FB3DF84DB8B8CFA43855C7CFE5">
 						<Properties>
 							<token name="Style">0</token>
 							<bool name="Active">false</bool>
@@ -2324,7 +2324,7 @@
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
 					</Item>
-					<Item class="Frame" referent="RBX79985478E88E406299258FDCDEC35582">
+					<Item class="Frame" referent="RBX746BEE8020834D74B4545C4B32453A16">
 						<Properties>
 							<token name="Style">0</token>
 							<bool name="Active">false</bool>
@@ -2388,7 +2388,7 @@
 							<int64 name="SourceAssetId">-1</int64>
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
-						<Item class="TextLabel" referent="RBXB1481C53173D4603BC934304322B32F2">
+						<Item class="TextLabel" referent="RBX76AD059949824F9B95BAA13A555DE10C">
 							<Properties>
 								<Font name="FontFace">
 									<Family><url>rbxasset://fonts/families/RobotoMono.json</url></Family>
@@ -2483,7 +2483,7 @@
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
 						</Item>
-						<Item class="Frame" referent="RBX35C733BCACB047FB8EF8F72863F97F5E">
+						<Item class="Frame" referent="RBXFC331BB66D8E4D09A7DF5C506C7A2473">
 							<Properties>
 								<token name="Style">0</token>
 								<bool name="Active">false</bool>
@@ -2549,7 +2549,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Frame" referent="RBXF4404403A31B47E1B3BE81CB7D15D3B7">
+					<Item class="Frame" referent="RBX676F1F18A7914F5EA713459EC5E7A786">
 						<Properties>
 							<token name="Style">0</token>
 							<bool name="Active">false</bool>
@@ -2613,7 +2613,7 @@
 							<int64 name="SourceAssetId">-1</int64>
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
-						<Item class="ScrollingFrame" referent="RBX8660404D75494F979B53FAD0B993CC11">
+						<Item class="ScrollingFrame" referent="RBXC32A667B0100486D9949B6E4F120FC45">
 							<Properties>
 								<token name="AutomaticCanvasSize">2</token>
 								<Content name="BottomImage"><url>rbxasset://textures/ui/Scroll/scroll-bottom.png</url></Content>
@@ -2703,7 +2703,7 @@
 								<int64 name="SourceAssetId">-1</int64>
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
-							<Item class="UIListLayout" referent="RBXC6BE4E9F980A487CBCCC80FF979AE21A">
+							<Item class="UIListLayout" referent="RBX2621EE9D9EB24EE28AF99BCA31F21CAC">
 								<Properties>
 									<token name="HorizontalFlex">0</token>
 									<token name="ItemLineAlignment">0</token>
@@ -2725,7 +2725,7 @@
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
 							</Item>
-							<Item class="Frame" referent="RBX884C200BFE7E45F985D3D3704A2F7505">
+							<Item class="Frame" referent="RBX877F919C2E964BD591CEEF01AE24CAB0">
 								<Properties>
 									<token name="Style">0</token>
 									<bool name="Active">false</bool>
@@ -2789,7 +2789,7 @@
 									<int64 name="SourceAssetId">-1</int64>
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
-								<Item class="Frame" referent="RBX7F9EB7F1492E4D60B38C28FE09F9D691">
+								<Item class="Frame" referent="RBX9C722575D7ED437BA572CDAD5BA66A39">
 									<Properties>
 										<token name="Style">0</token>
 										<bool name="Active">false</bool>
@@ -2853,7 +2853,7 @@
 										<int64 name="SourceAssetId">-1</int64>
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
-									<Item class="UIStroke" referent="RBX5E60FE0A1042471DBEC588435C3DA7D9">
+									<Item class="UIStroke" referent="RBX780AC3C649B3495CAC762FB2B27853EC">
 										<Properties>
 											<token name="ApplyStrokeMode">0</token>
 											<UDim name="BorderOffset">
@@ -2880,7 +2880,7 @@
 											<BinaryString name="Tags"></BinaryString>
 										</Properties>
 									</Item>
-									<Item class="UICorner" referent="RBX534FA63C30DE4498B68EA941742D83BD">
+									<Item class="UICorner" referent="RBX22ACB6B07F434BBAB742F620E3077F23">
 										<Properties>
 											<UDim name="CornerRadius">
 												<S>0</S>
@@ -2894,7 +2894,7 @@
 											<BinaryString name="Tags"></BinaryString>
 										</Properties>
 									</Item>
-									<Item class="TextButton" referent="RBXECB1999C5D074757835451D9ED11C92D">
+									<Item class="TextButton" referent="RBXD9D5B378A63D40589009DF9F3776A866">
 										<Properties>
 											<Font name="FontFace">
 												<Family><url>rbxasset://fonts/families/SourceSansPro.json</url></Family>
@@ -2996,7 +2996,7 @@
 											<BinaryString name="Tags"></BinaryString>
 										</Properties>
 									</Item>
-									<Item class="TextLabel" referent="RBXF67A68FC3DBC427993AFE402AC26AE03">
+									<Item class="TextLabel" referent="RBXDB5D8B3952C348B89F615AA0878F6E88">
 										<Properties>
 											<Font name="FontFace">
 												<Family><url>rbxasset://fonts/families/RobotoMono.json</url></Family>
@@ -3091,7 +3091,7 @@
 											<BinaryString name="Tags"></BinaryString>
 										</Properties>
 									</Item>
-									<Item class="Frame" referent="RBXF329C0D3B745435A9F7B744442FA832B">
+									<Item class="Frame" referent="RBX471CCE10E8E34817A1E09C4736E27DFB">
 										<Properties>
 											<token name="Style">0</token>
 											<bool name="Active">false</bool>
@@ -3155,7 +3155,7 @@
 											<int64 name="SourceAssetId">-1</int64>
 											<BinaryString name="Tags"></BinaryString>
 										</Properties>
-										<Item class="UICorner" referent="RBX60163B2FAD83433A954A8DEF0EFDAD9F">
+										<Item class="UICorner" referent="RBX10504E36F4E64DB58F089996DA77FF0E">
 											<Properties>
 												<UDim name="CornerRadius">
 													<S>0</S>
@@ -3172,7 +3172,7 @@
 									</Item>
 								</Item>
 							</Item>
-							<Item class="Frame" referent="RBXFE3AB6F8D02E4699A8C248BA64624AD2">
+							<Item class="Frame" referent="RBX233F33F70C894CA28E0CD78B618C7081">
 								<Properties>
 									<token name="Style">0</token>
 									<bool name="Active">false</bool>
@@ -3236,7 +3236,7 @@
 									<int64 name="SourceAssetId">-1</int64>
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
-								<Item class="Frame" referent="RBX01D9824CF11A492BB63F0A93AB2738B2">
+								<Item class="Frame" referent="RBX1674BAE07EE046F5BADB657AA0022D46">
 									<Properties>
 										<token name="Style">0</token>
 										<bool name="Active">false</bool>
@@ -3300,7 +3300,7 @@
 										<int64 name="SourceAssetId">-1</int64>
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
-									<Item class="UIStroke" referent="RBX874A916084D04A9AA5EF251A1E8CAA9B">
+									<Item class="UIStroke" referent="RBXF44CC60C05D24DDEADF94C54B4817C1F">
 										<Properties>
 											<token name="ApplyStrokeMode">0</token>
 											<UDim name="BorderOffset">
@@ -3327,7 +3327,7 @@
 											<BinaryString name="Tags"></BinaryString>
 										</Properties>
 									</Item>
-									<Item class="UICorner" referent="RBXE09F5FB873B7403192A127ABD79CD9F6">
+									<Item class="UICorner" referent="RBX84380FD028604D75B80E32B75D3BC350">
 										<Properties>
 											<UDim name="CornerRadius">
 												<S>0</S>
@@ -3341,7 +3341,7 @@
 											<BinaryString name="Tags"></BinaryString>
 										</Properties>
 									</Item>
-									<Item class="TextButton" referent="RBXD2FEB7BB6C2C4EA5B489FF70E3C908A2">
+									<Item class="TextButton" referent="RBXB5D4872CFDEC4421ABEC55D912F3896B">
 										<Properties>
 											<Font name="FontFace">
 												<Family><url>rbxasset://fonts/families/SourceSansPro.json</url></Family>
@@ -3443,7 +3443,7 @@
 											<BinaryString name="Tags"></BinaryString>
 										</Properties>
 									</Item>
-									<Item class="TextLabel" referent="RBXD5AAE6BCB8374B498688F39F148B6299">
+									<Item class="TextLabel" referent="RBX9430C3C9E9A7490980284DED8C40D2AD">
 										<Properties>
 											<Font name="FontFace">
 												<Family><url>rbxasset://fonts/families/RobotoMono.json</url></Family>
@@ -3538,7 +3538,7 @@
 											<BinaryString name="Tags"></BinaryString>
 										</Properties>
 									</Item>
-									<Item class="Frame" referent="RBX409F9D7C2C0344DCB38C754EFD61A385">
+									<Item class="Frame" referent="RBX8691BE03102C4C9CBF45BFACBBF45ACD">
 										<Properties>
 											<token name="Style">0</token>
 											<bool name="Active">false</bool>
@@ -3602,7 +3602,7 @@
 											<int64 name="SourceAssetId">-1</int64>
 											<BinaryString name="Tags"></BinaryString>
 										</Properties>
-										<Item class="UICorner" referent="RBXC88CF47B02564E66B2D10F59D65DA984">
+										<Item class="UICorner" referent="RBXC2100AC824E14BDE85966B1B16F6DD57">
 											<Properties>
 												<UDim name="CornerRadius">
 													<S>0</S>
@@ -3622,7 +3622,7 @@
 						</Item>
 					</Item>
 				</Item>
-				<Item class="Frame" referent="RBX6B766158B5524E40A90EDE0108143A1A">
+				<Item class="Frame" referent="RBX82439BEF1DC64C09ADAA09024C835831">
 					<Properties>
 						<token name="Style">0</token>
 						<bool name="Active">false</bool>
@@ -3686,7 +3686,7 @@
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 					</Properties>
-					<Item class="Frame" referent="RBX679445389E22450F84B3EB487058ED1D">
+					<Item class="Frame" referent="RBXD8163B64D4284265B7503485F65C50D6">
 						<Properties>
 							<token name="Style">0</token>
 							<bool name="Active">false</bool>
@@ -3751,7 +3751,7 @@
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
 					</Item>
-					<Item class="Frame" referent="RBXD94F7DFFCE8C46208BE4A0E2E39E832A">
+					<Item class="Frame" referent="RBXED1ED3ECB0BA49459F46469CECCC5B9D">
 						<Properties>
 							<token name="Style">0</token>
 							<bool name="Active">false</bool>
@@ -3815,7 +3815,7 @@
 							<int64 name="SourceAssetId">-1</int64>
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
-						<Item class="UIListLayout" referent="RBX54B7F3C15B7A409FBECAFB4059918028">
+						<Item class="UIListLayout" referent="RBX0F934048956346538EE8C944C5E08A5E">
 							<Properties>
 								<token name="HorizontalFlex">0</token>
 								<token name="ItemLineAlignment">0</token>
@@ -3837,7 +3837,7 @@
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
 						</Item>
-						<Item class="Frame" referent="RBX7FA9ECF806E54614B02C70626C553DC0">
+						<Item class="Frame" referent="RBX8D5136A730E9461290C5C6CAA16782FE">
 							<Properties>
 								<token name="Style">0</token>
 								<bool name="Active">false</bool>
@@ -3901,7 +3901,7 @@
 								<int64 name="SourceAssetId">-1</int64>
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
-							<Item class="UICorner" referent="RBX974C3ED689B2427F8E24B6248FC8FECA">
+							<Item class="UICorner" referent="RBX17B7DB7716E34E4180E4573A94E3CBCA">
 								<Properties>
 									<UDim name="CornerRadius">
 										<S>0</S>
@@ -3915,7 +3915,7 @@
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
 							</Item>
-							<Item class="TextLabel" referent="RBXC5A824A5B05546738306151B43CA1FFC">
+							<Item class="TextLabel" referent="RBX81E0F6A2994346FEBFE106E0F3EFA98C">
 								<Properties>
 									<Font name="FontFace">
 										<Family><url>rbxasset://fonts/families/Roboto.json</url></Family>
@@ -4010,7 +4010,7 @@
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
 							</Item>
-							<Item class="TextButton" referent="RBXA7B8F72AB16C423789B13429E505F6FB">
+							<Item class="TextButton" referent="RBXBFD9137220B74072BD931E254BE51C9F">
 								<Properties>
 									<Font name="FontFace">
 										<Family><url>rbxasset://fonts/families/SourceSansPro.json</url></Family>
@@ -4112,7 +4112,7 @@
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
 							</Item>
-							<Item class="UIStroke" referent="RBX9B04AB14973F4D918B1A874D9ED73C94">
+							<Item class="UIStroke" referent="RBX4D3ACD80B981416884A737E5F870129A">
 								<Properties>
 									<token name="ApplyStrokeMode">0</token>
 									<UDim name="BorderOffset">
@@ -4139,7 +4139,7 @@
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
 							</Item>
-							<Item class="Frame" referent="RBX827D4185C37746A5AD8236F875515644">
+							<Item class="Frame" referent="RBX63B62FA69A384C8AAD581718066344B2">
 								<Properties>
 									<token name="Style">0</token>
 									<bool name="Active">false</bool>
@@ -4203,7 +4203,7 @@
 									<int64 name="SourceAssetId">-1</int64>
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
-								<Item class="UICorner" referent="RBX9044E95730C240C98287DFBD72677108">
+								<Item class="UICorner" referent="RBX3EF71033CE4C4F33B5BB641ED618EAEE">
 									<Properties>
 										<UDim name="CornerRadius">
 											<S>0</S>
@@ -4219,7 +4219,7 @@
 								</Item>
 							</Item>
 						</Item>
-						<Item class="Frame" referent="RBX8371DD681F694BE59AF11F6446F50471">
+						<Item class="Frame" referent="RBX2C7D01CFE1DB411BA96B268EF923DA65">
 							<Properties>
 								<token name="Style">0</token>
 								<bool name="Active">false</bool>
@@ -4285,7 +4285,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="UICorner" referent="RBX83F563B5DB6C4C748A19126C2F131D1B">
+					<Item class="UICorner" referent="RBX5FA27E08F0234423B8FB5A8DB3918B78">
 						<Properties>
 							<UDim name="CornerRadius">
 								<S>0</S>
@@ -4300,7 +4300,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Frame" referent="RBXEB2D877B9A154F1A9E4A4FF5524B97A4">
+				<Item class="Frame" referent="RBX8D82EF0EB7F4434DAED45612C7989B69">
 					<Properties>
 						<token name="Style">0</token>
 						<bool name="Active">false</bool>
@@ -4364,7 +4364,7 @@
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 					</Properties>
-					<Item class="Frame" referent="RBX81A4548633844463977B5E8140203D9C">
+					<Item class="Frame" referent="RBX3CBCE914C3B74F199BF6D10AE316272D">
 						<Properties>
 							<token name="Style">0</token>
 							<bool name="Active">false</bool>
@@ -4428,7 +4428,7 @@
 							<int64 name="SourceAssetId">-1</int64>
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
-						<Item class="Frame" referent="RBX3D4E7BF6952B4078A45F80EDB595041A">
+						<Item class="Frame" referent="RBXCF965C10D9FC4282BFB23B90D101FA0F">
 							<Properties>
 								<token name="Style">0</token>
 								<bool name="Active">false</bool>
@@ -4488,11 +4488,11 @@
 								<BinaryString name="AttributesSerialize"></BinaryString>
 								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 								<bool name="DefinesCapabilities">false</bool>
-								<string name="Name">prop</string>
+								<string name="Name">name</string>
 								<int64 name="SourceAssetId">-1</int64>
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
-							<Item class="TextLabel" referent="RBX922694C228574B7DAA9B35EB33F38092">
+							<Item class="TextLabel" referent="RBX988941528ED04B2287FBF2A1B581EC61">
 								<Properties>
 									<Font name="FontFace">
 										<Family><url>rbxasset://fonts/families/RobotoMono.json</url></Family>
@@ -4587,7 +4587,7 @@
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
 							</Item>
-							<Item class="UIListLayout" referent="RBXD07AE219F3194B359FE7659CD76C5AD6">
+							<Item class="UIListLayout" referent="RBX61C87485B4C54C2988FFF474FF934FA9">
 								<Properties>
 									<token name="HorizontalFlex">0</token>
 									<token name="ItemLineAlignment">0</token>
@@ -4609,7 +4609,7 @@
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
 							</Item>
-							<Item class="TextLabel" referent="RBX954AFC89E2AC40319A1A50CBCF6668DD">
+							<Item class="TextLabel" referent="RBX734056EDADC242CCAC71D3222296B6A4">
 								<Properties>
 									<Font name="FontFace">
 										<Family><url>rbxasset://fonts/families/Roboto.json</url></Family>
@@ -4705,7 +4705,7 @@
 								</Properties>
 							</Item>
 						</Item>
-						<Item class="UIListLayout" referent="RBX72BE462DF7274F2B925405E65304C23E">
+						<Item class="UIListLayout" referent="RBX7849858B8C194143B37830409FF6D968">
 							<Properties>
 								<token name="HorizontalFlex">0</token>
 								<token name="ItemLineAlignment">0</token>
@@ -4727,7 +4727,7 @@
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
 						</Item>
-						<Item class="Frame" referent="RBX9232D188D25F475C82050968ECBE5F84">
+						<Item class="Frame" referent="RBX5BF3B8B3C53946E59B27811495A21392">
 							<Properties>
 								<token name="Style">0</token>
 								<bool name="Active">false</bool>
@@ -4791,7 +4791,7 @@
 								<int64 name="SourceAssetId">-1</int64>
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
-							<Item class="Frame" referent="RBX9A7A75E7C7864B02B12C698995CBEF44">
+							<Item class="Frame" referent="RBXB4B1E91E648C48298C99FD1A245E9205">
 								<Properties>
 									<token name="Style">0</token>
 									<bool name="Active">false</bool>
@@ -4851,11 +4851,11 @@
 									<BinaryString name="AttributesSerialize"></BinaryString>
 									<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 									<bool name="DefinesCapabilities">false</bool>
-									<string name="Name">prop</string>
+									<string name="Name">length</string>
 									<int64 name="SourceAssetId">-1</int64>
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
-								<Item class="TextLabel" referent="RBXE1F0186674194C9F95A37CBBF7E3460C">
+								<Item class="TextLabel" referent="RBX9223ED598F8240F7B718921E78C459DE">
 									<Properties>
 										<Font name="FontFace">
 											<Family><url>rbxasset://fonts/families/RobotoMono.json</url></Family>
@@ -4950,7 +4950,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="UIListLayout" referent="RBX72D262F300624C96B2CD9839A4A34D62">
+								<Item class="UIListLayout" referent="RBX57AF850A34794AA7B4C9AB4B62D6FF05">
 									<Properties>
 										<token name="HorizontalFlex">0</token>
 										<token name="ItemLineAlignment">0</token>
@@ -4972,7 +4972,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="TextLabel" referent="RBX80AF7DE71A714AFDBEB940DA8F964FFD">
+								<Item class="TextLabel" referent="RBX53D7CCC68EEB42A59842F57ECA3DABE6">
 									<Properties>
 										<Font name="FontFace">
 											<Family><url>rbxasset://fonts/families/Roboto.json</url></Family>
@@ -5068,7 +5068,7 @@
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="Frame" referent="RBX0DEFECA519DC4D48AA308445EAB816F9">
+							<Item class="Frame" referent="RBX405213EA6E9B4AA9A1698FE6AD97B11D">
 								<Properties>
 									<token name="Style">0</token>
 									<bool name="Active">false</bool>
@@ -5128,11 +5128,11 @@
 									<BinaryString name="AttributesSerialize"></BinaryString>
 									<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 									<bool name="DefinesCapabilities">false</bool>
-									<string name="Name">prop</string>
+									<string name="Name">priority</string>
 									<int64 name="SourceAssetId">-1</int64>
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
-								<Item class="TextLabel" referent="RBXFDAD0C0239EF4BB695EE392EB26B0D64">
+								<Item class="TextLabel" referent="RBX4642CD433C134AC088063A320E0DAAF6">
 									<Properties>
 										<Font name="FontFace">
 											<Family><url>rbxasset://fonts/families/RobotoMono.json</url></Family>
@@ -5227,7 +5227,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="UIListLayout" referent="RBXADFA8C5DFE4543FEB14A35AA5B8B126F">
+								<Item class="UIListLayout" referent="RBXA7C9C823720546658EDEAF2B502E715F">
 									<Properties>
 										<token name="HorizontalFlex">0</token>
 										<token name="ItemLineAlignment">0</token>
@@ -5249,7 +5249,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="TextLabel" referent="RBX1639B1E7487E4D4B941A1F452DC69FC6">
+								<Item class="TextLabel" referent="RBX1875C4BA9CEF4641B56E9D2D53C5F3EE">
 									<Properties>
 										<Font name="FontFace">
 											<Family><url>rbxasset://fonts/families/Roboto.json</url></Family>
@@ -5345,7 +5345,7 @@
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="UIListLayout" referent="RBX79AFFDAA13614B00A7F65D899582C518">
+							<Item class="UIListLayout" referent="RBX53D6598E7D92487A8E0C65F3F5CA7557">
 								<Properties>
 									<token name="HorizontalFlex">0</token>
 									<token name="ItemLineAlignment">0</token>
@@ -5368,7 +5368,7 @@
 								</Properties>
 							</Item>
 						</Item>
-						<Item class="Frame" referent="RBXE2110A58188A4BA2ACB9ABA87C1EC283">
+						<Item class="Frame" referent="RBX328AE31E916D4A2988F0B66C0B8B9B61">
 							<Properties>
 								<token name="Style">0</token>
 								<bool name="Active">false</bool>
@@ -5433,7 +5433,7 @@
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
 						</Item>
-						<Item class="Frame" referent="RBXAA06823630374E7F8E07DDBC016FC692">
+						<Item class="Frame" referent="RBX6747FBED8A7C4072A400262F7DA0EC02">
 							<Properties>
 								<token name="Style">0</token>
 								<bool name="Active">false</bool>
@@ -5497,7 +5497,7 @@
 								<int64 name="SourceAssetId">-1</int64>
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
-							<Item class="TextLabel" referent="RBXE20DBBFAF353482296FF027DCF0E5497">
+							<Item class="TextLabel" referent="RBX0FAC891762FC4491AA361C30F01E6F07">
 								<Properties>
 									<Font name="FontFace">
 										<Family><url>rbxasset://fonts/families/RobotoMono.json</url></Family>
@@ -5592,7 +5592,7 @@
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
 							</Item>
-							<Item class="TextLabel" referent="RBX54AE589BFDBC4F07B9970321DF4428AF">
+							<Item class="TextLabel" referent="RBX83928E1EAD2244DDA0376B305765B965">
 								<Properties>
 									<Font name="FontFace">
 										<Family><url>rbxasset://fonts/families/RobotoMono.json</url></Family>
@@ -5691,7 +5691,7 @@
 					</Item>
 				</Item>
 			</Item>
-			<Item class="UIAspectRatioConstraint" referent="RBX35753C4315394AE396D238763DF34438">
+			<Item class="UIAspectRatioConstraint" referent="RBX48FB9C8CD17E41F0802F999CAF382698">
 				<Properties>
 					<float name="AspectRatio">1.49889135</float>
 					<token name="AspectType">0</token>
@@ -5704,7 +5704,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Frame" referent="RBXA62B4E91784441B79D1D93085247F026">
+			<Item class="Frame" referent="RBX239EBC0480A74F8DA01B116F0B9B9C2F">
 				<Properties>
 					<token name="Style">0</token>
 					<bool name="Active">false</bool>
@@ -5768,7 +5768,7 @@
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="ImageLabel" referent="RBXED8DCCDBBC5346B3ADAED60B7208BDD8">
+				<Item class="ImageLabel" referent="RBX56DA2F23CC4C411DABA9C313E9A5E916">
 					<Properties>
 						<Content name="Image"><url>rbxassetid://136563593316996</url></Content>
 						<Color3 name="ImageColor3">
@@ -5866,7 +5866,7 @@
 						<BinaryString name="Tags"></BinaryString>
 					</Properties>
 				</Item>
-				<Item class="Frame" referent="RBX051F165271C046F0AF7C3C0026653DF4">
+				<Item class="Frame" referent="RBXCFE6642880B24DFAA0B1F0D033E70D60">
 					<Properties>
 						<token name="Style">0</token>
 						<bool name="Active">false</bool>
@@ -5930,7 +5930,7 @@
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 					</Properties>
-					<Item class="ViewportFrame" referent="RBX6425DE5E0D414FD79C5A6489CFE65B09">
+					<Item class="ViewportFrame" referent="RBX061C3D6C4E5B431095D0903C335905F7">
 						<Properties>
 							<Color3 name="Ambient">
 								<R>0.784313738</R>
@@ -6029,7 +6029,7 @@
 							<int64 name="SourceAssetId">-1</int64>
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
-						<Item class="Camera" referent="RBX93CCA49DF7124E23B07DDDDB96AD1582">
+						<Item class="Camera" referent="RBX25B3232922284013899F63BB5CFA67A8">
 							<Properties>
 								<CoordinateFrame name="CFrame">
 									<X>0.203681007</X>
@@ -6074,7 +6074,7 @@
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
 						</Item>
-						<Item class="Model" referent="RBX5A38DFA81D0F48898B6FDC47A594ADAF">
+						<Item class="Model" referent="RBXC8DCE375E7EF40DC92509639A899E1AD">
 							<Properties>
 								<token name="LevelOfDetail">0</token>
 								<CoordinateFrame name="ModelMeshCFrame">
@@ -6099,7 +6099,7 @@
 								</Vector3>
 								<token name="ModelStreamingMode">0</token>
 								<bool name="NeedsPivotMigration">false</bool>
-								<Ref name="PrimaryPart">RBX135BF53FC56C4060ACAF278F40647650</Ref>
+								<Ref name="PrimaryPart">RBXFE9458C95F0C40B6967F25A77D744373</Ref>
 								<float name="ScaleFactor">1</float>
 								<SharedString name="SlimHash">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 								<OptionalCoordinateFrame name="WorldPivotData">
@@ -6125,7 +6125,7 @@
 								<int64 name="SourceAssetId">-1</int64>
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
-							<Item class="Part" referent="RBX135BF53FC56C4060ACAF278F40647650">
+							<Item class="Part" referent="RBXFE9458C95F0C40B6967F25A77D744373">
 								<Properties>
 									<token name="shape">1</token>
 									<token name="formFactorRaw">0</token>
@@ -6223,7 +6223,7 @@
 									<int64 name="SourceAssetId">-1</int64>
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
-								<Item class="SpecialMesh" referent="RBX92BF158D427749FDB5224533EEF36E38">
+								<Item class="SpecialMesh" referent="RBXC2A83BD5FC5B46DFBF32AD1AF2E1DD38">
 									<Properties>
 										<token name="MeshType">0</token>
 										<Content name="MeshId"><null></null></Content>
@@ -6251,7 +6251,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="Decal" referent="RBXB35D40E95965406A9BD90AF8A3C927FD">
+								<Item class="Decal" referent="RBX69DBF4CD42434B0CB737D2E9FD35C805">
 									<Properties>
 										<Color3 name="Color3">
 											<R>1</R>
@@ -6284,7 +6284,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="Attachment" referent="RBX8DFD277A6FD74312A3EE507EACF290CC">
+								<Item class="Attachment" referent="RBX826F53CCBD6F46C996E75374721CDF17">
 									<Properties>
 										<CoordinateFrame name="CFrame">
 											<X>0</X>
@@ -6309,7 +6309,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="Attachment" referent="RBX04161D76DC9A48B296C3C691848901A0">
+								<Item class="Attachment" referent="RBX7192207D4368465E9251554B901A30FD">
 									<Properties>
 										<CoordinateFrame name="CFrame">
 											<X>0</X>
@@ -6334,7 +6334,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="Attachment" referent="RBX3D86FA1E84C448C789DF796A6F3963F3">
+								<Item class="Attachment" referent="RBX82C2F06B587B4304A5E852868AB97086">
 									<Properties>
 										<CoordinateFrame name="CFrame">
 											<X>0</X>
@@ -6359,7 +6359,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="Attachment" referent="RBXCC7693F104ED4ADC83C48DBD729F5210">
+								<Item class="Attachment" referent="RBX7311EDBA4B64491DA9BFD05017434C2D">
 									<Properties>
 										<CoordinateFrame name="CFrame">
 											<X>0</X>
@@ -6385,7 +6385,7 @@
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="Part" referent="RBX0E1471491C0943899EBDF3595F6C3359">
+							<Item class="Part" referent="RBXDB5E747295544FD8B294B6463C72857C">
 								<Properties>
 									<token name="shape">1</token>
 									<token name="formFactorRaw">0</token>
@@ -6483,7 +6483,7 @@
 									<int64 name="SourceAssetId">-1</int64>
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
-								<Item class="Decal" referent="RBXB3B37EDE61A1460FBDD6F0FA550526E1">
+								<Item class="Decal" referent="RBX5A3D0FF751604547B8BFB922B7B745B2">
 									<Properties>
 										<Color3 name="Color3">
 											<R>1</R>
@@ -6516,7 +6516,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="Attachment" referent="RBX413B1BF2000343E4B0AC3E6B8D28F59C">
+								<Item class="Attachment" referent="RBX3DAF7F3C6B3F4E27A3572C97651D6716">
 									<Properties>
 										<CoordinateFrame name="CFrame">
 											<X>0</X>
@@ -6541,7 +6541,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="Attachment" referent="RBX3B16FE5C004F4FF2902432F4700C3AB6">
+								<Item class="Attachment" referent="RBX86DD43C22B8949A3880EA367D868DF44">
 									<Properties>
 										<CoordinateFrame name="CFrame">
 											<X>0</X>
@@ -6566,7 +6566,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="Attachment" referent="RBX0EB4E02DCEC34CC9A551D7FFA6853F3F">
+								<Item class="Attachment" referent="RBX15B9D32C97314F519263833FFCD08889">
 									<Properties>
 										<CoordinateFrame name="CFrame">
 											<X>0</X>
@@ -6591,7 +6591,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="Attachment" referent="RBX1A3D67CC90314E389B6015D39AA44EEE">
+								<Item class="Attachment" referent="RBX5462D515C4A1446D9DE8FC6F91EF3707">
 									<Properties>
 										<CoordinateFrame name="CFrame">
 											<X>-1</X>
@@ -6616,7 +6616,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="Attachment" referent="RBX41D304FD8BD145A68ED2E90B0D578104">
+								<Item class="Attachment" referent="RBX1D7DF6A56A004DF1A6ECAEA881B7F12C">
 									<Properties>
 										<CoordinateFrame name="CFrame">
 											<X>1</X>
@@ -6641,7 +6641,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="Attachment" referent="RBXA8F84D55BBEF48C9B0CDE4F1D9993CDB">
+								<Item class="Attachment" referent="RBXD9C37618875040A0A693A1F12737DF4D">
 									<Properties>
 										<CoordinateFrame name="CFrame">
 											<X>0</X>
@@ -6666,7 +6666,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="Attachment" referent="RBX8FDF41887FF64E469D6D19A6B65C4EE7">
+								<Item class="Attachment" referent="RBXCA239D0CA00542148FB1811C9D42C0B1">
 									<Properties>
 										<CoordinateFrame name="CFrame">
 											<X>0</X>
@@ -6691,7 +6691,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="Attachment" referent="RBX28E463A048634A37A33A323545FEDE3B">
+								<Item class="Attachment" referent="RBXC8EC1198B6BF408BABD35BF75FEFD9B4">
 									<Properties>
 										<CoordinateFrame name="CFrame">
 											<X>0</X>
@@ -6716,7 +6716,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="Motor6D" referent="RBX257FC8BDD1AD4C4882AAFB8BC66F1001">
+								<Item class="Motor6D" referent="RBX4099B140749F4E51B7DCCC1DA392C265">
 									<Properties>
 										<float name="DesiredAngle">0</float>
 										<float name="MaxVelocity">0.100000001</float>
@@ -6749,8 +6749,8 @@
 											<R22>0</R22>
 										</CoordinateFrame>
 										<bool name="Enabled">true</bool>
-										<Ref name="Part0">RBX0E1471491C0943899EBDF3595F6C3359</Ref>
-										<Ref name="Part1">RBX8BE382A13F5B48DB9214094F5FC0788B</Ref>
+										<Ref name="Part0">RBXDB5E747295544FD8B294B6463C72857C</Ref>
+										<Ref name="Part1">RBX84172570270F4F6CB97442E26FA4E22B</Ref>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 										<bool name="DefinesCapabilities">false</bool>
@@ -6759,7 +6759,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="Motor6D" referent="RBXAF2A58D24CB24F1A8F62502AE45E84B8">
+								<Item class="Motor6D" referent="RBXAB08C4ABB4234648A1E3F64EF54FE0DE">
 									<Properties>
 										<float name="DesiredAngle">0</float>
 										<float name="MaxVelocity">0.100000001</float>
@@ -6792,8 +6792,8 @@
 											<R22>0</R22>
 										</CoordinateFrame>
 										<bool name="Enabled">true</bool>
-										<Ref name="Part0">RBX0E1471491C0943899EBDF3595F6C3359</Ref>
-										<Ref name="Part1">RBXA8D65D94A4964CBD970052D5476AEB34</Ref>
+										<Ref name="Part0">RBXDB5E747295544FD8B294B6463C72857C</Ref>
+										<Ref name="Part1">RBX0829FA84CFB9430588685DE5D0467927</Ref>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 										<bool name="DefinesCapabilities">false</bool>
@@ -6802,7 +6802,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="Motor6D" referent="RBX002B19A6B95B470CA0D24E575E1BB536">
+								<Item class="Motor6D" referent="RBX8DC3D516A696473997527EDAD617EC4D">
 									<Properties>
 										<float name="DesiredAngle">0</float>
 										<float name="MaxVelocity">0.100000001</float>
@@ -6835,8 +6835,8 @@
 											<R22>0</R22>
 										</CoordinateFrame>
 										<bool name="Enabled">true</bool>
-										<Ref name="Part0">RBX0E1471491C0943899EBDF3595F6C3359</Ref>
-										<Ref name="Part1">RBX45247C6CE78C4E69936CE1C46FF3B5FD</Ref>
+										<Ref name="Part0">RBXDB5E747295544FD8B294B6463C72857C</Ref>
+										<Ref name="Part1">RBX6DAE1FC0837F4CE5A8F2E48EDCB01689</Ref>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 										<bool name="DefinesCapabilities">false</bool>
@@ -6845,7 +6845,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="Motor6D" referent="RBX5E97018F7F4F47EF88CB5E6A1DE689C0">
+								<Item class="Motor6D" referent="RBX42AB4D2B381F46878C13EAC28AD94D74">
 									<Properties>
 										<float name="DesiredAngle">0</float>
 										<float name="MaxVelocity">0.100000001</float>
@@ -6878,8 +6878,8 @@
 											<R22>0</R22>
 										</CoordinateFrame>
 										<bool name="Enabled">true</bool>
-										<Ref name="Part0">RBX0E1471491C0943899EBDF3595F6C3359</Ref>
-										<Ref name="Part1">RBXD31E8AD31B4B47C7BB4935F702EBCC32</Ref>
+										<Ref name="Part0">RBXDB5E747295544FD8B294B6463C72857C</Ref>
+										<Ref name="Part1">RBX420AA713BB704829A99DBB75EB50B91D</Ref>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 										<bool name="DefinesCapabilities">false</bool>
@@ -6888,7 +6888,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="Motor6D" referent="RBXAFC469CCACC0493295F06662405053C2">
+								<Item class="Motor6D" referent="RBX1728471FD3E54DD39806E5A09F7798F0">
 									<Properties>
 										<float name="DesiredAngle">0</float>
 										<float name="MaxVelocity">0.100000001</float>
@@ -6921,8 +6921,8 @@
 											<R22>-0</R22>
 										</CoordinateFrame>
 										<bool name="Enabled">true</bool>
-										<Ref name="Part0">RBX0E1471491C0943899EBDF3595F6C3359</Ref>
-										<Ref name="Part1">RBX135BF53FC56C4060ACAF278F40647650</Ref>
+										<Ref name="Part0">RBXDB5E747295544FD8B294B6463C72857C</Ref>
+										<Ref name="Part1">RBXFE9458C95F0C40B6967F25A77D744373</Ref>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 										<bool name="DefinesCapabilities">false</bool>
@@ -6932,7 +6932,7 @@
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="Part" referent="RBXA8D65D94A4964CBD970052D5476AEB34">
+							<Item class="Part" referent="RBX0829FA84CFB9430588685DE5D0467927">
 								<Properties>
 									<token name="shape">1</token>
 									<token name="formFactorRaw">0</token>
@@ -7030,7 +7030,7 @@
 									<int64 name="SourceAssetId">-1</int64>
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
-								<Item class="Attachment" referent="RBXB3336B10355A45558984E1B413E77E1F">
+								<Item class="Attachment" referent="RBX0ED8D56828FB45B7BD09E8EDD004513F">
 									<Properties>
 										<CoordinateFrame name="CFrame">
 											<X>0</X>
@@ -7055,7 +7055,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="Attachment" referent="RBXFDF1575727D74F3BA486EF4E8F1F6A05">
+								<Item class="Attachment" referent="RBX138424BDBCFA428298BF14E1143F38AF">
 									<Properties>
 										<CoordinateFrame name="CFrame">
 											<X>0</X>
@@ -7081,7 +7081,7 @@
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="Part" referent="RBX8BE382A13F5B48DB9214094F5FC0788B">
+							<Item class="Part" referent="RBX84172570270F4F6CB97442E26FA4E22B">
 								<Properties>
 									<token name="shape">1</token>
 									<token name="formFactorRaw">0</token>
@@ -7179,7 +7179,7 @@
 									<int64 name="SourceAssetId">-1</int64>
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
-								<Item class="Attachment" referent="RBXBB81223BF1CF446CB6E2F0ACC006D885">
+								<Item class="Attachment" referent="RBX7A3856E3839F47C982604336C14F07DD">
 									<Properties>
 										<CoordinateFrame name="CFrame">
 											<X>0</X>
@@ -7204,7 +7204,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="Attachment" referent="RBX5F7D1CD003C14563BBD4EB90BEBB3F11">
+								<Item class="Attachment" referent="RBX8055C44377B248A4881783024A63BAC3">
 									<Properties>
 										<CoordinateFrame name="CFrame">
 											<X>0</X>
@@ -7230,7 +7230,7 @@
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="Part" referent="RBXD31E8AD31B4B47C7BB4935F702EBCC32">
+							<Item class="Part" referent="RBX420AA713BB704829A99DBB75EB50B91D">
 								<Properties>
 									<token name="shape">1</token>
 									<token name="formFactorRaw">0</token>
@@ -7328,7 +7328,7 @@
 									<int64 name="SourceAssetId">-1</int64>
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
-								<Item class="Attachment" referent="RBX838395A60CAD481D80DAD1DD7DB0ED4F">
+								<Item class="Attachment" referent="RBX246E1ADE852645569C90CBE96785F9AA">
 									<Properties>
 										<CoordinateFrame name="CFrame">
 											<X>0</X>
@@ -7354,7 +7354,7 @@
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="Part" referent="RBX45247C6CE78C4E69936CE1C46FF3B5FD">
+							<Item class="Part" referent="RBX6DAE1FC0837F4CE5A8F2E48EDCB01689">
 								<Properties>
 									<token name="shape">1</token>
 									<token name="formFactorRaw">0</token>
@@ -7452,7 +7452,7 @@
 									<int64 name="SourceAssetId">-1</int64>
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
-								<Item class="Attachment" referent="RBXAD06A3EF23EA45749713A3F0C6696B82">
+								<Item class="Attachment" referent="RBXD6DD5F78FDCD46F7B3308798E7F4F5E0">
 									<Properties>
 										<CoordinateFrame name="CFrame">
 											<X>0</X>
@@ -7478,7 +7478,7 @@
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="Humanoid" referent="RBX72B7354422544A5AA214746513B1E2D4">
+							<Item class="Humanoid" referent="RBXFC9C656C226C429388F05142D1E57D06">
 								<Properties>
 									<bool name="AutoJumpEnabled">true</bool>
 									<bool name="AutoRotate">true</bool>
@@ -7515,7 +7515,7 @@
 									<int64 name="SourceAssetId">-1</int64>
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
-								<Item class="Animator" referent="RBX987DEE03E0F642FF85B00F657D112F21">
+								<Item class="Animator" referent="RBX657B7B83CB094428B9D1CDFCAB03E4BA">
 									<Properties>
 										<bool name="PreferLodEnabled">true</bool>
 										<BinaryString name="AttributesSerialize"></BinaryString>
@@ -7526,7 +7526,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="HumanoidDescription" referent="RBX2F18D855B34E485CBBA7CD078B7598D1">
+								<Item class="HumanoidDescription" referent="RBXBCF6D72263B44BFB97C886BA0160233C">
 									<Properties>
 										<float name="BodyTypeScale">0</float>
 										<int64 name="ClimbAnimation">0</int64>
@@ -7557,7 +7557,7 @@
 										<int64 name="SourceAssetId">-1</int64>
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
-									<Item class="BodyPartDescription" referent="RBX18DF69C828A645DEBDE84C3022A5EA1A">
+									<Item class="BodyPartDescription" referent="RBX3660E85C2CBC46A2A7FD6826DB63405F">
 										<Properties>
 											<int64 name="AssetId">0</int64>
 											<token name="BodyPart">0</token>
@@ -7576,7 +7576,7 @@
 											<BinaryString name="Tags"></BinaryString>
 										</Properties>
 									</Item>
-									<Item class="BodyPartDescription" referent="RBX06B183D1D0F94A86B138BF2526924EE8">
+									<Item class="BodyPartDescription" referent="RBX78BD6B991A644161956F31FA751DE928">
 										<Properties>
 											<int64 name="AssetId">0</int64>
 											<token name="BodyPart">2</token>
@@ -7595,7 +7595,7 @@
 											<BinaryString name="Tags"></BinaryString>
 										</Properties>
 									</Item>
-									<Item class="BodyPartDescription" referent="RBX36EAD8885EE14875A6F85C2982A6FF93">
+									<Item class="BodyPartDescription" referent="RBXA0768CA9A9D94FA3AD261EA363E04837">
 										<Properties>
 											<int64 name="AssetId">0</int64>
 											<token name="BodyPart">4</token>
@@ -7614,7 +7614,7 @@
 											<BinaryString name="Tags"></BinaryString>
 										</Properties>
 									</Item>
-									<Item class="BodyPartDescription" referent="RBX600084F38C424AB0A2DEE15EF68FF837">
+									<Item class="BodyPartDescription" referent="RBXFBE4D98B4BC44D048AA6DC6B47FB2CA7">
 										<Properties>
 											<int64 name="AssetId">0</int64>
 											<token name="BodyPart">3</token>
@@ -7633,7 +7633,7 @@
 											<BinaryString name="Tags"></BinaryString>
 										</Properties>
 									</Item>
-									<Item class="BodyPartDescription" referent="RBXBE4ACD26F70E461D8E2A2952E6C6A5A6">
+									<Item class="BodyPartDescription" referent="RBX8AB05B9F755049CF968C3E6EA277BF90">
 										<Properties>
 											<int64 name="AssetId">0</int64>
 											<token name="BodyPart">5</token>
@@ -7652,7 +7652,7 @@
 											<BinaryString name="Tags"></BinaryString>
 										</Properties>
 									</Item>
-									<Item class="BodyPartDescription" referent="RBX12A0613C5EC84794A72E96931BEB0010">
+									<Item class="BodyPartDescription" referent="RBX0670AFBE7A0249798411CCBC5C9FA928">
 										<Properties>
 											<int64 name="AssetId">0</int64>
 											<token name="BodyPart">1</token>
@@ -7673,7 +7673,7 @@
 									</Item>
 								</Item>
 							</Item>
-							<Item class="Part" referent="RBX6DC491CB52844E7D98DFA631E124D879">
+							<Item class="Part" referent="RBX8DDA620F9B9741209E35D67EEB8EABEF">
 								<Properties>
 									<token name="shape">1</token>
 									<token name="formFactorRaw">0</token>
@@ -7771,7 +7771,7 @@
 									<int64 name="SourceAssetId">-1</int64>
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
-								<Item class="Attachment" referent="RBX8291F6B17664474BB1EF5C0BE0948014">
+								<Item class="Attachment" referent="RBX5AB5633DBE1E41E5BAF70C8C6B78FCCB">
 									<Properties>
 										<CoordinateFrame name="CFrame">
 											<X>0</X>
@@ -7796,7 +7796,7 @@
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="Motor6D" referent="RBX1A4D45D075F64FC8A881D86C7CFA1782">
+								<Item class="Motor6D" referent="RBX4CCB961E965F413EB90E259964F0B410">
 									<Properties>
 										<float name="DesiredAngle">0</float>
 										<float name="MaxVelocity">0.100000001</float>
@@ -7829,8 +7829,8 @@
 											<R22>-0</R22>
 										</CoordinateFrame>
 										<bool name="Enabled">true</bool>
-										<Ref name="Part0">RBX6DC491CB52844E7D98DFA631E124D879</Ref>
-										<Ref name="Part1">RBX0E1471491C0943899EBDF3595F6C3359</Ref>
+										<Ref name="Part0">RBX8DDA620F9B9741209E35D67EEB8EABEF</Ref>
+										<Ref name="Part1">RBXDB5E747295544FD8B294B6463C72857C</Ref>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 										<bool name="DefinesCapabilities">false</bool>
@@ -7840,7 +7840,7 @@
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="LocalScript" referent="RBXF96CD8E0A0FB43238D9C1B16B9DC84A8">
+							<Item class="LocalScript" referent="RBX7FC42F761FFD429B8072F734908C4EC2">
 								<Properties>
 									<ProtectedString name="Source"><![CDATA[-- humanoidAnimatePlayEmote.lua
 
@@ -8430,7 +8430,7 @@ end
 									<int64 name="SourceAssetId">-1</int64>
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
-								<Item class="StringValue" referent="RBXEC5DECA6B23749708AF672055AAB8273">
+								<Item class="StringValue" referent="RBX10400A75247E4277A774A59F8F2CAA2C">
 									<Properties>
 										<string name="Value"></string>
 										<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8440,7 +8440,7 @@ end
 										<int64 name="SourceAssetId">-1</int64>
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
-									<Item class="Animation" referent="RBX64EE3C4AEE654115A97F3CA38F532E33">
+									<Item class="Animation" referent="RBXE8B534692F8745FA90677A056F1C24DD">
 										<Properties>
 											<Content name="AnimationId"><url>http://www.roblox.com/asset/?id=180435571</url></Content>
 											<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8450,7 +8450,7 @@ end
 											<int64 name="SourceAssetId">-1</int64>
 											<BinaryString name="Tags"></BinaryString>
 										</Properties>
-										<Item class="NumberValue" referent="RBXD1ACD9E4ECCF4877B8F66CCAB335EBB0">
+										<Item class="NumberValue" referent="RBXFEE34F8FC6464ED7953CE6E87F006E59">
 											<Properties>
 												<double name="Value">9</double>
 												<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8462,7 +8462,7 @@ end
 											</Properties>
 										</Item>
 									</Item>
-									<Item class="Animation" referent="RBXCD7EC685AAB54A1F92F66DE3EEA4C79A">
+									<Item class="Animation" referent="RBX3E76F7CE83B44F80800AE17579C7D396">
 										<Properties>
 											<Content name="AnimationId"><url>http://www.roblox.com/asset/?id=180435792</url></Content>
 											<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8472,7 +8472,7 @@ end
 											<int64 name="SourceAssetId">-1</int64>
 											<BinaryString name="Tags"></BinaryString>
 										</Properties>
-										<Item class="NumberValue" referent="RBX2B49999DE011489486B8933374AA4AFE">
+										<Item class="NumberValue" referent="RBX3DDB1F4B98D84561861ED3F2CCDAD190">
 											<Properties>
 												<double name="Value">1</double>
 												<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8485,7 +8485,7 @@ end
 										</Item>
 									</Item>
 								</Item>
-								<Item class="StringValue" referent="RBX91B8630CA98547759EE01D480925509A">
+								<Item class="StringValue" referent="RBX4A8F4EE7FD314E719E3FF0EA3CD7B117">
 									<Properties>
 										<string name="Value"></string>
 										<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8495,7 +8495,7 @@ end
 										<int64 name="SourceAssetId">-1</int64>
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
-									<Item class="Animation" referent="RBX6D49ACDA70EE4EBBAF299F756AB00A25">
+									<Item class="Animation" referent="RBXD589D65F9A6946AD9647F12EEDB155DD">
 										<Properties>
 											<Content name="AnimationId"><url>http://www.roblox.com/asset/?id=180426354</url></Content>
 											<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8507,7 +8507,7 @@ end
 										</Properties>
 									</Item>
 								</Item>
-								<Item class="StringValue" referent="RBX4A0F903C5DFF4778852A2270C32E0A43">
+								<Item class="StringValue" referent="RBXD1A96A0B854B4B2E82BBC37D1BF23656">
 									<Properties>
 										<string name="Value"></string>
 										<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8517,7 +8517,7 @@ end
 										<int64 name="SourceAssetId">-1</int64>
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
-									<Item class="Animation" referent="RBX95F8F36A45624F1596B756AC5D5D496D">
+									<Item class="Animation" referent="RBXBB3AC8423A93447E877FCA1CA50D0EE6">
 										<Properties>
 											<Content name="AnimationId"><url>http://www.roblox.com/asset/?id=180426354</url></Content>
 											<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8529,7 +8529,7 @@ end
 										</Properties>
 									</Item>
 								</Item>
-								<Item class="StringValue" referent="RBX4D9F4F41352E49C4B7ECD0AC2C221B07">
+								<Item class="StringValue" referent="RBX73679FD1CAE54C9ABDCB87DD6EF71A44">
 									<Properties>
 										<string name="Value"></string>
 										<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8539,7 +8539,7 @@ end
 										<int64 name="SourceAssetId">-1</int64>
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
-									<Item class="Animation" referent="RBX8A1A329540EC4C0A850984995E0B1242">
+									<Item class="Animation" referent="RBX3E5427FC35DE4118BD844AEAA4A0E4BC">
 										<Properties>
 											<Content name="AnimationId"><url>http://www.roblox.com/asset/?id=125750702</url></Content>
 											<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8551,7 +8551,7 @@ end
 										</Properties>
 									</Item>
 								</Item>
-								<Item class="StringValue" referent="RBX114AFEB3AA604E87B7DCBEE692DA69FB">
+								<Item class="StringValue" referent="RBX60D4BEC7B42B440C911308D875218599">
 									<Properties>
 										<string name="Value"></string>
 										<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8561,7 +8561,7 @@ end
 										<int64 name="SourceAssetId">-1</int64>
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
-									<Item class="Animation" referent="RBX4193F347A8EC441084C1D1AB058B9FEB">
+									<Item class="Animation" referent="RBX8AD0709D12B4496CAC3461C7E030B027">
 										<Properties>
 											<Content name="AnimationId"><url>http://www.roblox.com/asset/?id=180436334</url></Content>
 											<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8573,7 +8573,7 @@ end
 										</Properties>
 									</Item>
 								</Item>
-								<Item class="StringValue" referent="RBXBC5D6E9736E240F1B950560E9488776B">
+								<Item class="StringValue" referent="RBXBBC4A5404E364E60800F748CE136FD5E">
 									<Properties>
 										<string name="Value"></string>
 										<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8583,7 +8583,7 @@ end
 										<int64 name="SourceAssetId">-1</int64>
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
-									<Item class="Animation" referent="RBXF15214F6235E476ABFA152BCE2F12FED">
+									<Item class="Animation" referent="RBX29FD6DD25E9B4D7EA47A3A2391356109">
 										<Properties>
 											<Content name="AnimationId"><url>http://www.roblox.com/asset/?id=182393478</url></Content>
 											<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8595,7 +8595,7 @@ end
 										</Properties>
 									</Item>
 								</Item>
-								<Item class="StringValue" referent="RBX80FA3F5D9238499E9EFF519E4F898C7E">
+								<Item class="StringValue" referent="RBX1C2E0622020C4ABC929A8EC55D11EB99">
 									<Properties>
 										<string name="Value"></string>
 										<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8605,7 +8605,7 @@ end
 										<int64 name="SourceAssetId">-1</int64>
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
-									<Item class="Animation" referent="RBX30C875217B3248C5B742F3E0986D38B1">
+									<Item class="Animation" referent="RBX473D267413E5479885074E55A1B6D07B">
 										<Properties>
 											<Content name="AnimationId"><url>http://www.roblox.com/asset/?id=180436148</url></Content>
 											<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8617,7 +8617,7 @@ end
 										</Properties>
 									</Item>
 								</Item>
-								<Item class="StringValue" referent="RBX3761A0C072FD4FB0A4A11451207009B9">
+								<Item class="StringValue" referent="RBX581CFB99209D4EAE9E405187EAB9370A">
 									<Properties>
 										<string name="Value"></string>
 										<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8627,7 +8627,7 @@ end
 										<int64 name="SourceAssetId">-1</int64>
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
-									<Item class="Animation" referent="RBX14587B44A7504278AD51BB59DC716683">
+									<Item class="Animation" referent="RBXE62B582980A5477D89A53D771EA0BFB6">
 										<Properties>
 											<Content name="AnimationId"><url>http://www.roblox.com/asset/?id=178130996</url></Content>
 											<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8639,7 +8639,7 @@ end
 										</Properties>
 									</Item>
 								</Item>
-								<Item class="BindableFunction" referent="RBX8DA84144D2A545CB88C623ABEBE82402">
+								<Item class="BindableFunction" referent="RBX769224B208F0476794E47FC2FDCABCD3">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -8649,7 +8649,7 @@ end
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="NumberValue" referent="RBX7F2825ECE46845D1ACC4ECBDDA5EFD7E">
+								<Item class="NumberValue" referent="RBX36F0B8CA7DC94B40BD8E49A4E8F45DD5">
 									<Properties>
 										<double name="Value">1</double>
 										<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8661,7 +8661,7 @@ end
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="BodyColors" referent="RBXD93A5C07E429454EBE7F743FB30F7147">
+							<Item class="BodyColors" referent="RBX167D5BFD436E4881B3D24294EB39DC56">
 								<Properties>
 									<Color3 name="HeadColor3">
 										<R>0.5</R>
@@ -8703,7 +8703,7 @@ end
 							</Item>
 						</Item>
 					</Item>
-					<Item class="Frame" referent="RBX156CE0E5C02548A7852169FBD8178028">
+					<Item class="Frame" referent="RBX719D6C8240CA48B786590483F18DFB81">
 						<Properties>
 							<token name="Style">0</token>
 							<bool name="Active">false</bool>
@@ -8767,7 +8767,7 @@ end
 							<int64 name="SourceAssetId">-1</int64>
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
-						<Item class="UIListLayout" referent="RBX542206610AEF4F8395A6CDF8B5186475">
+						<Item class="UIListLayout" referent="RBX40B548FF01FC4CA6A3ADD24910FBFD4B">
 							<Properties>
 								<token name="HorizontalFlex">0</token>
 								<token name="ItemLineAlignment">0</token>
@@ -8789,7 +8789,7 @@ end
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
 						</Item>
-						<Item class="Frame" referent="RBX65CB9350397E4D7583B9311DD288B98A">
+						<Item class="Frame" referent="RBX120423F7580E49DCBF7486B8C19ED243">
 							<Properties>
 								<token name="Style">0</token>
 								<bool name="Active">false</bool>
@@ -8853,7 +8853,7 @@ end
 								<int64 name="SourceAssetId">-1</int64>
 								<BinaryString name="Tags"></BinaryString>
 							</Properties>
-							<Item class="UICorner" referent="RBX9F0D31F268CD4456B68F72BC74EFF497">
+							<Item class="UICorner" referent="RBX040F8F8A97564FBF96A05143D3C12A2D">
 								<Properties>
 									<UDim name="CornerRadius">
 										<S>0</S>
@@ -8867,7 +8867,7 @@ end
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
 							</Item>
-							<Item class="UIStroke" referent="RBX67709FAD91B74E3FB49228AAA65BF510">
+							<Item class="UIStroke" referent="RBX56EFD031A55E44BE8B56287E74FC9736">
 								<Properties>
 									<token name="ApplyStrokeMode">0</token>
 									<UDim name="BorderOffset">
@@ -8894,7 +8894,7 @@ end
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
 							</Item>
-							<Item class="Frame" referent="RBX8EB2E6F7841A4F058F4A4CD19F1DDDEA">
+							<Item class="Frame" referent="RBX9DBE78F5280644A5839D0BB7EB57581D">
 								<Properties>
 									<token name="Style">0</token>
 									<bool name="Active">false</bool>
@@ -8958,7 +8958,7 @@ end
 									<int64 name="SourceAssetId">-1</int64>
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
-								<Item class="Frame" referent="RBX16446E0311E74C1EBD5FBDCFFEF74F64">
+								<Item class="Frame" referent="RBX26436D18F4BE41E5B40BA2247F7E198A">
 									<Properties>
 										<token name="Style">0</token>
 										<bool name="Active">false</bool>
@@ -9022,7 +9022,7 @@ end
 										<int64 name="SourceAssetId">-1</int64>
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
-									<Item class="UICorner" referent="RBXB0E74340A5B24ADEAE1784E82161F86B">
+									<Item class="UICorner" referent="RBX93D50BCA36704606A50B2FF11C45DDBC">
 										<Properties>
 											<UDim name="CornerRadius">
 												<S>1</S>
@@ -9037,7 +9037,7 @@ end
 										</Properties>
 									</Item>
 								</Item>
-								<Item class="UIListLayout" referent="RBX58E437A187754BBDB125EBC19E7DCBB7">
+								<Item class="UIListLayout" referent="RBX4445BCEBE37D4806960D14814304B78E">
 									<Properties>
 										<token name="HorizontalFlex">0</token>
 										<token name="ItemLineAlignment">0</token>
@@ -9059,7 +9059,7 @@ end
 										<BinaryString name="Tags"></BinaryString>
 									</Properties>
 								</Item>
-								<Item class="TextLabel" referent="RBXDFB61D60409341EA9BE3297C83F6BD2E">
+								<Item class="TextLabel" referent="RBX8AA9428185B5495681E57F01560AFBAB">
 									<Properties>
 										<Font name="FontFace">
 											<Family><url>rbxasset://fonts/families/Roboto.json</url></Family>
@@ -9155,7 +9155,7 @@ end
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="TextButton" referent="RBX7F76536B1E2D41559B435C3B602E446F">
+							<Item class="TextButton" referent="RBX4E8C5166E93A4F6B862E97F05978DFAF">
 								<Properties>
 									<Font name="FontFace">
 										<Family><url>rbxasset://fonts/families/SourceSansPro.json</url></Family>
@@ -9257,7 +9257,7 @@ end
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
 							</Item>
-							<Item class="Frame" referent="RBX912A9F537A5E412CBEA6DCF71EDAF9DA">
+							<Item class="Frame" referent="RBX82AAD7EBF7EC48929D46607402ED5C9C">
 								<Properties>
 									<token name="Style">0</token>
 									<bool name="Active">false</bool>
@@ -9321,7 +9321,7 @@ end
 									<int64 name="SourceAssetId">-1</int64>
 									<BinaryString name="Tags"></BinaryString>
 								</Properties>
-								<Item class="UICorner" referent="RBXA67382DF7C7D4EE596C0DECD7AAD5989">
+								<Item class="UICorner" referent="RBXD40F57C891F34BFFB324BCC43EE1110C">
 									<Properties>
 										<UDim name="CornerRadius">
 											<S>0</S>
