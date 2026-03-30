@@ -3511,7 +3511,7 @@
 								<bool name="Draggable">false</bool>
 								<token name="InputSink">0</token>
 								<bool name="Interactable">true</bool>
-								<int name="LayoutOrder">123</int>
+								<int name="LayoutOrder">1</int>
 								<Ref name="NextSelectionDown">null</Ref>
 								<Ref name="NextSelectionLeft">null</Ref>
 								<Ref name="NextSelectionRight">null</Ref>
@@ -3893,7 +3893,7 @@
 								<bool name="Draggable">false</bool>
 								<token name="InputSink">0</token>
 								<bool name="Interactable">true</bool>
-								<int name="LayoutOrder">12</int>
+								<int name="LayoutOrder">1</int>
 								<Ref name="NextSelectionDown">null</Ref>
 								<Ref name="NextSelectionLeft">null</Ref>
 								<Ref name="NextSelectionRight">null</Ref>
