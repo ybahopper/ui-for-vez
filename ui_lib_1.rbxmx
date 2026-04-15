@@ -9033,7 +9033,7 @@ end
 						<XS>0</XS>
 						<XO>433</XO>
 						<YS>0</YS>
-						<YO>358</YO>
+						<YO>352</YO>
 					</UDim2>
 					<token name="SizeConstraint">0</token>
 					<bool name="Visible">true</bool>
