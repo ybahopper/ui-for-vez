@@ -9010,7 +9010,7 @@ end
 					</Color3>
 					<token name="BorderMode">0</token>
 					<int name="BorderSizePixel">0</int>
-					<bool name="ClipsDescendants">false</bool>
+					<bool name="ClipsDescendants">true</bool>
 					<bool name="Draggable">false</bool>
 					<token name="InputSink">0</token>
 					<bool name="Interactable">true</bool>
@@ -9031,7 +9031,7 @@ end
 					<int name="SelectionOrder">0</int>
 					<UDim2 name="Size">
 						<XS>0</XS>
-						<XO>95</XO>
+						<XO>433</XO>
 						<YS>0</YS>
 						<YO>358</YO>
 					</UDim2>
@@ -9063,7 +9063,7 @@ end
 						<token name="VerticalFlex">0</token>
 						<bool name="Wraps">false</bool>
 						<token name="FillDirection">1</token>
-						<token name="HorizontalAlignment">0</token>
+						<token name="HorizontalAlignment">2</token>
 						<token name="SortOrder">2</token>
 						<token name="VerticalAlignment">2</token>
 						<BinaryString name="AttributesSerialize"></BinaryString>
@@ -9318,7 +9318,7 @@ end
 						</Item>
 						<Item class="ImageLabel" referent="RBXACCDD77AC7154658A414FBFED5D2A1AE">
 							<Properties>
-								<Content name="Image"><url>rbxassetid://139816139131321</url></Content>
+								<Content name="Image"><url>rbxassetid://128652484951291</url></Content>
 								<Color3 name="ImageColor3">
 									<R>0.333333343</R>
 									<G>0.333333343</G>
@@ -10460,7 +10460,7 @@ end
 							<int name="SelectionOrder">0</int>
 							<UDim2 name="Size">
 								<XS>0</XS>
-								<XO>279</XO>
+								<XO>272</XO>
 								<YS>0</YS>
 								<YO>86</YO>
 							</UDim2>
