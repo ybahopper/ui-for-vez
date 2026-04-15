@@ -1,4 +1,4 @@
-local repo = "https://raw.githubusercontent.com/ybahopper/ui-for-vez/main/"
+local repo = "https://raw.githubusercontent.com/Vezise/ui-for-vez/main/"
 local load = function(f) return loadstring(game:HttpGet(repo .. f))() end
 local fetch = function(f) return game:HttpGet(repo .. f) end
 
@@ -13,6 +13,7 @@ if existing then existing:Destroy() end
 local RBXMXParser = load("RBXMXParser.lua")
 local AnimLoggerUI = RBXMXParser.Deserialize(fetch("ui_lib_1.rbxmx"), CoreGui)[1]
 
+local ActiveTweens = {}
 local TWEEN_FAST = TweenInfo.new(0.12, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
 local TWEEN_DEFAULT = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
 
@@ -25,7 +26,13 @@ local Style = {
 }
 
 local function tween(instance, properties, info)
+	if ActiveTweens[instance] then
+		ActiveTweens[instance]:Cancel()
+	end
 	local t = TweenService:Create(instance, info or TWEEN_DEFAULT, properties)
+	t.Completed:Connect(function()
+		ActiveTweens[instance] = nil
+	end)
 	t:Play()
 	return t
 end
@@ -64,12 +71,17 @@ local function playPreview(animationId)
 		currentTrack = nil
 	end
 
+	for _, Anim in previewAnimator:GetPlayingAnimationTracks() do
+		Anim:Stop(0)
+	end
+	
 	local anim = Instance.new("Animation")
 	anim.AnimationId = animationId
 
 	currentTrack = previewAnimator:LoadAnimation(anim)
 	currentTrack:Play()
-    currentTrack.Looped = false
+	task.wait(currentTrack.Length)
+	currentTrack.Looped = false
 	anim:Destroy()
 end
 
@@ -79,7 +91,7 @@ local contentTemplate = AnimLoggerUI.Background.contain.center.contain
 local tabs = {}
 
 local function selectTab(target)
-	for _, entry in ipairs(tabs) do
+	for _, entry in tabs do
 		local selected = (entry == target)
 		local log = entry.tab:FindFirstChild("log")
 
@@ -151,13 +163,14 @@ lib.stopPreview = stopPreview
 
 local function getTabGroups()
 	local groups = {}
-	for _, entry in ipairs(tabs) do
+	for _, entry in tabs do
 		local id = entry.tab.Name
 		if not groups[id] then
 			groups[id] = {}
 		end
 		table.insert(groups[id], entry)
 	end
+
 	return groups
 end
 
@@ -191,29 +204,42 @@ local function showTab(entry)
 end
 
 function lib:stackTabs()
-	stackingEnabled = true
-	local groups = getTabGroups()
-	for _, group in pairs(groups) do
-		if #group > 1 then
-			updateStackIndicator(group[1], #group)
-			for i = 2, #group do
-				hideTab(group[i])
+	local Success, Error = pcall(function()
+		stackingEnabled = true
+		local groups = getTabGroups()
+		for _, group in groups do
+			if #group > 1 then
+				updateStackIndicator(group[1], #group)
+				for i = 2, #group do
+					local entry = group[i]
+					if entry.tab and entry.tab.Parent then
+						entry.tab:Destroy()
+					end
+					if entry.content and entry.content.Parent then
+						entry.content:Destroy()
+					end
+				end
 			end
 		end
-	end
+	end)
+	if not Success then warn(`Crimson UI Library had an issue (stackTabs): {Error}`) end
 end
 
 function lib:unstackTabs()
-	stackingEnabled = false
-	local groups = getTabGroups()
-	for _, group in pairs(groups) do
-		if #group > 1 then
-			updateStackIndicator(group[1], nil)
-			for i = 2, #group do
-				showTab(group[i])
+	local Success, Error = pcall(function()
+		stackingEnabled = false
+		--[[
+		local groups = getTabGroups()
+		for _, group in pairs(groups) do
+			if #group > 1 then
+				updateStackIndicator(group[1], nil)
+				for i = 2, #group do
+					showTab(group[i])
+				end
 			end
-		end
-	end
+		end]]
+	end)
+	if not Success then warn(`Crimson UI Library had an issue (unstackTabs: {Error}`) end
 end
 
 function lib:isStacking()
@@ -247,28 +273,52 @@ function lib:createLog(id, name, length, priority, callback)
 	content.contain.priority.value.Text = priority
 
 	local entry = { tab = tab, content = content }
-	table.insert(tabs, entry)
-	tab.LayoutOrder = -#tabs
-
-	local button = tab:FindFirstChildWhichIsA("TextButton", true)
-	if button then
-		button.MouseButton1Click:Connect(function()
-            selectTab(entry)
-            if callback then callback() end
-        end)
-		connectHover(button, tab, content)
-	end
-
+	
+	local isDuplicate = false
+	local existingEntry = nil
+	
 	if stackingEnabled then
-		local groups = getTabGroups()
-		local group = groups[id]
-		if group and #group > 1 then
-			updateStackIndicator(group[1], #group)
-			hideTab(entry)
+		for _, checkEntry in tabs do
+			if checkEntry.tab.Name == id then
+				isDuplicate = true
+				existingEntry = checkEntry
+				break
+			end
 		end
 	end
+	
+	if isDuplicate and existingEntry then
+		local log = existingEntry.tab:FindFirstChild("log")
+		local multi = log and log:FindFirstChild("multi")
+		local currentCount = 1
+		
+		if multi and multi.Visible then
+			local countStr = multi.Text:match("x(%d+)")
+			currentCount = tonumber(countStr) or 1
+		end
 
+		updateStackIndicator(existingEntry, currentCount + 1)
+		tab:Destroy()
+		content:Destroy()
+	else
+		table.insert(tabs, entry)
+		tab.LayoutOrder = -#tabs
+
+		local button = tab:FindFirstChildWhichIsA("TextButton", true)
+		if button then
+			button.MouseButton1Click:Connect(function()
+	            selectTab(entry)
+	            if callback then callback() end
+	        end)
+			connectHover(button, tab, content)
+		end
+	end
+		
 	function funcs:makeProperty(name, val, color)
+		if isDuplicate then
+			return
+		end
+		
 		local prop = content.propdif:Clone()
 		prop.Visible = true
 		prop.name.Text = name
@@ -280,6 +330,39 @@ function lib:createLog(id, name, length, priority, callback)
 	end
 
 	return funcs
+end
+
+function lib:clearLogs()
+	for Instance, Tween in ActiveTweens do
+		if Tween then
+			Tween:Cancel()
+			ActiveTweens[Instance] = nil
+		end
+	end
+
+	for _, Entry in tabs do
+		if Entry.tab and Entry.tab.Parent then
+			Entry.tab:Destroy()
+		end
+			
+		if Entry.content and Entry.content.Parent then
+			Entry.content:Destroy()
+		end
+	end
+		
+	for _, Log in CoreGui.AnimLoggerUI.Background.contain.left.contain.ScrollingFrame:GetChildren() do
+		if Log.Name ~= "logUn" and Log.Name ~= "UIListLayout" then
+			Log:Destroy()
+		end
+	end
+
+	for _, Content in CoreGui.AnimLoggerUI.Background.contain.center:GetChildren() do
+		if Content.Name ~= "contain" then
+			Content:Destroy()
+		end
+	end
+		
+	tabs = {}
 end
 
 function lib:createTopToggle(name, callback)
@@ -373,8 +456,10 @@ function lib:createBottomButton(name, callback)
 	local toggle = parent.clear:Clone()
 	toggle.Visible = true
 	toggle.Parent = parent
+	toggle.Name = name
 
 	local label = toggle.TextLabel
+	label.Name = name
 	label.Text = name
 	toggle.Size = UDim2.new(0, label.TextBounds.X + 25, 1, -20)
 
@@ -392,6 +477,16 @@ function lib:createBottomButton(name, callback)
 			end
 		end)
 	end
+end
+
+function lib:updateBottomButton(button, name)
+	local label = AnimLoggerUI.Background.contain.bottom.contain[button]
+	label[button].Text = name
+	label[button].Name = name
+	label.Name = name
+	label = AnimLoggerUI.Background.contain.bottom.contain[name]
+	
+	label.Size = UDim2.new(0, label[name].TextBounds.X + 25, 1, -20)
 end
 
 function lib:createButtomLine()
