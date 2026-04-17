@@ -10930,7 +10930,7 @@ end
 											<int name="MaxVisibleGraphemes">-1</int>
 											<string name="OpenTypeFeatures"></string>
 											<bool name="RichText">false</bool>
-											<string name="Text">Button</string>
+											<string name="Text"></string>
 											<Color3 name="TextColor3">
 												<R>0</R>
 												<G>0</G>
@@ -10967,7 +10967,7 @@ end
 												<G>1</G>
 												<B>1</B>
 											</Color3>
-											<float name="BackgroundTransparency">0</float>
+											<float name="BackgroundTransparency">1</float>
 											<Color3 name="BorderColor3">
 												<R>0</R>
 												<G>0</G>
@@ -11017,6 +11017,20 @@ end
 											<int64 name="SourceAssetId">-1</int64>
 											<BinaryString name="Tags"></BinaryString>
 										</Properties>
+										<Item class="UICorner" referent="RBXCB197BC923994FE0A3E29698350C89C6">
+											<Properties>
+												<UDim name="CornerRadius">
+													<S>0</S>
+													<O>2</O>
+												</UDim>
+												<BinaryString name="AttributesSerialize"></BinaryString>
+												<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+												<bool name="DefinesCapabilities">false</bool>
+												<string name="Name">UICorner</string>
+												<int64 name="SourceAssetId">-1</int64>
+												<BinaryString name="Tags"></BinaryString>
+											</Properties>
+										</Item>
 									</Item>
 								</Item>
 							</Item>
