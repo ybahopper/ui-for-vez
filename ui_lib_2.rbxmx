@@ -11494,7 +11494,7 @@ end
 												<G>1</G>
 												<B>1</B>
 											</Color3>
-											<float name="BackgroundTransparency">1</float>
+											<float name="BackgroundTransparency">0.99000001</float>
 											<Color3 name="BorderColor3">
 												<R>0</R>
 												<G>0</G>
@@ -11544,6 +11544,20 @@ end
 											<int64 name="SourceAssetId">-1</int64>
 											<BinaryString name="Tags"></BinaryString>
 										</Properties>
+										<Item class="UICorner" referent="RBX26413478F365415BA1A2728FF0B4B8F8">
+											<Properties>
+												<UDim name="CornerRadius">
+													<S>0</S>
+													<O>2</O>
+												</UDim>
+												<BinaryString name="AttributesSerialize"></BinaryString>
+												<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+												<bool name="DefinesCapabilities">false</bool>
+												<string name="Name">UICorner</string>
+												<int64 name="SourceAssetId">-1</int64>
+												<BinaryString name="Tags"></BinaryString>
+											</Properties>
+										</Item>
 									</Item>
 								</Item>
 							</Item>
