@@ -10402,7 +10402,7 @@ end
 							<YO>91</YO>
 						</UDim2>
 						<token name="SizeConstraint">0</token>
-						<bool name="Visible">true</bool>
+						<bool name="Visible">false</bool>
 						<int name="ZIndex">1</int>
 						<bool name="AutoLocalize">true</bool>
 						<Ref name="RootLocalizationTable">null</Ref>
@@ -11457,7 +11457,7 @@ end
 											<int name="MaxVisibleGraphemes">-1</int>
 											<string name="OpenTypeFeatures"></string>
 											<bool name="RichText">false</bool>
-											<string name="Text">Button</string>
+											<string name="Text"></string>
 											<Color3 name="TextColor3">
 												<R>0</R>
 												<G>0</G>
@@ -11485,8 +11485,8 @@ end
 											<token name="Style">0</token>
 											<bool name="Active">true</bool>
 											<Vector2 name="AnchorPoint">
-												<X>0</X>
-												<Y>0</Y>
+												<X>0.5</X>
+												<Y>0.5</Y>
 											</Vector2>
 											<token name="AutomaticSize">0</token>
 											<Color3 name="BackgroundColor3">
@@ -11494,7 +11494,7 @@ end
 												<G>1</G>
 												<B>1</B>
 											</Color3>
-											<float name="BackgroundTransparency">0</float>
+											<float name="BackgroundTransparency">1</float>
 											<Color3 name="BorderColor3">
 												<R>0</R>
 												<G>0</G>
@@ -11512,9 +11512,9 @@ end
 											<Ref name="NextSelectionRight">null</Ref>
 											<Ref name="NextSelectionUp">null</Ref>
 											<UDim2 name="Position">
-												<XS>0</XS>
+												<XS>0.5</XS>
 												<XO>0</XO>
-												<YS>0</YS>
+												<YS>0.5</YS>
 												<YO>0</YO>
 											</UDim2>
 											<float name="Rotation">0</float>
@@ -11522,10 +11522,10 @@ end
 											<Ref name="SelectionImageObject">null</Ref>
 											<int name="SelectionOrder">0</int>
 											<UDim2 name="Size">
-												<XS>0</XS>
-												<XO>200</XO>
-												<YS>0</YS>
-												<YO>50</YO>
+												<XS>1</XS>
+												<XO>0</XO>
+												<YS>1</YS>
+												<YO>0</YO>
 											</UDim2>
 											<token name="SizeConstraint">0</token>
 											<bool name="Visible">true</bool>
